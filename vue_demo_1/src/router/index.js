@@ -11,7 +11,7 @@ import Demo7 from '../views/Demo7_Slot.vue'
 import Demo8 from '../views/Demo8_Condition.vue'
 import Demo9 from '../views/Demo9_LoopFor.vue'
 import Demo10 from '../views/Demo10_LifecycleHooks.vue'
-
+import Demo11 from '../views/Demo11_NormalStateVariable.vue'
 
 
 Vue.use(VueRouter)
@@ -71,6 +71,11 @@ const routes = [
     path: '/demo10',
     name: 'demo10',
     component: Demo10
+  },
+  {
+    path: '/demo11',
+    name: 'demo11',
+    component: Demo11
   },
 ]
 
