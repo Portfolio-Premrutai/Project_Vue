@@ -4,6 +4,10 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
+import Vue2Filters from "vue2-filters";
+Vue.use(Vue2Filters);//gobal 
+
+
 
 new Vue({
   router,

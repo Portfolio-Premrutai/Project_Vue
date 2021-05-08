@@ -67,6 +67,11 @@
           <button>Demo12</button>
         </router-link>
       </li>
+        <li>
+        <router-link to="/demo13">
+          <button>Demo13</button>
+        </router-link>
+      </li>
     </ul>
   </div>
 </template>

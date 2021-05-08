@@ -13,6 +13,8 @@ import Demo9 from '../views/Demo9_LoopFor.vue'
 import Demo10 from '../views/Demo10_LifecycleHooks.vue'
 import Demo11 from '../views/Demo11_NormalStateVariable.vue'
 import Demo12 from '../views/Demo12_Ref.vue'
+import Demo13 from '../views/Demo13_Filter.vue'
+
 
 Vue.use(VueRouter)
 
@@ -81,6 +83,11 @@ const routes = [
     path: '/demo12',
     name: 'demo12',
     component: Demo12
+  },
+  {
+    path: '/demo13',
+    name: 'demo13',
+    component: Demo13
   },
 ]
 
